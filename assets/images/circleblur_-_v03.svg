@@ -1,0 +1,26 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Degradado radial tipo aro:
+         centro transparente → franja difusa → borde sólido -->
+    <radialGradient id="solidOuterRing" cx="50%" cy="50%" r="50%">
+      <!-- Centro: totalmente transparente, no tapa el video -->
+      <stop offset="0%"   stop-color="#0B061E" stop-opacity="0" />
+      <stop offset="65%"  stop-color="#0B061E" stop-opacity="0" />
+
+      <!-- Franja difuminada que empieza a cubrir el borde del video -->
+      <stop offset="78%"  stop-color="#0B061E" stop-opacity="0.4" />
+      <stop offset="86%"  stop-color="#0B061E" stop-opacity="0.8" />
+
+      <!-- Parte más externa: sólida, tapa todo -->
+      <stop offset="100%" stop-color="#0B061E" stop-opacity="1" />
+    </radialGradient>
+  </defs>
+
+  <!-- Aro: sin stroke, todo es relleno con el gradiente -->
+  <circle
+    cx="200"
+    cy="200"
+    r="200"
+    fill="url(#solidOuterRing)"
+  />
+</svg>

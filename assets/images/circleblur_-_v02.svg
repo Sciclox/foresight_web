@@ -1,0 +1,24 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Degradado radial que hace de soft mask -->
+    <radialGradient id="softMask10092D" cx="50%" cy="50%" r="50%">
+      <!-- Centro: totalmente transparente (no toca el centro del video) -->
+      <stop offset="0%" stop-color="#10092D" stop-opacity="0" />
+      <stop offset="55%" stop-color="#10092D" stop-opacity="0" />
+
+      <!-- Zona del borde duro del video: aquí “muerde” y lo suaviza -->
+      <stop offset="72%" stop-color="#10092D" stop-opacity="0.7" />
+
+      <!-- Se vuelve a desvanecer hacia afuera -->
+      <stop offset="100%" stop-color="#10092D" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Círculo que solo pinta el degradado (no hay stroke, ni borde duro) -->
+  <circle
+    cx="200"
+    cy="200"
+    r="200"
+    fill="url(#softMask10092D)"
+  />
+</svg>
