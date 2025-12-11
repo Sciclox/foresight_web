@@ -1,0 +1,77 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    // Permitir acceso a archivos de reportes
+    match /imagenesReportePortada/{allPaths=**} {
+      allow read: if true;
+      allow write: if true;
+    }
+    
+    match /reportesReportePDF/{allPaths=**} {
+      allow read: if true;
+      allow write: if true;
+    }
+    
+    match /imagenesHabitantePortada/{allPaths=**} {
+      allow read: if true;
+      allow write: if true;
+    }
+    
+    match /audiosAudioHabitante/{allPaths=**} {
+      allow read: if true;
+      allow write: if true;
+    }
+    
+    match /imagenesProcesoImagenes/{allPaths=**} {
+      allow read: if true;
+      allow write: if true;
+    }
+    
+    match /imagenesTendenciasPortada/{allPaths=**} {
+      allow read: if true;
+      allow write: if true;
+    }
+    
+    match /imagenesSenales/{allPaths=**} {
+      allow read: if true;
+      allow write: if true;
+    }
+    
+    // Rutas para escenarios (usadas en ReporteFormulario2)
+    match /imagenesEscenarios/{allPaths=**} {
+      allow read: if true;
+      allow write: if true;
+    }
+    
+    match /audiosHabitantes/{allPaths=**} {
+      allow read: if true;
+      allow write: if true;
+    }
+    
+    match /imagenesHabitantes/{allPaths=**} {
+      allow read: if true;
+      allow write: if true;
+    }
+    
+    match /imagenesManifestaciones/{allPaths=**} {
+      allow read: if true;
+      allow write: if true;
+    }
+    
+    match /imagenesIniciativas/{allPaths=**} {
+      allow read: if true;
+      allow write: if true;
+    }
+    
+    // Permitir acceso a archivos de usuarios
+    match /users/{userId}/{allPaths=**} {
+      allow read: if true;
+      allow write: if request.auth.uid == userId;
+    }
+    
+    // Bloquear todo lo demás por defecto
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}

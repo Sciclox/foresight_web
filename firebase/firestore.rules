@@ -1,0 +1,90 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /Reporte/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if true;
+      allow delete: if true;
+    }
+
+    match /Reporte/{parent}/habitantes/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if true;
+      allow delete: if true;
+    }
+
+    match /{path=**}/habitantes/{document} {
+      allow read: if true;
+    }
+
+
+    match /Reporte/{parent}/tendencias/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if true;
+      allow delete: if true;
+    }
+
+    match /{path=**}/tendencias/{document} {
+      allow read: if true;
+    }
+
+
+    match /Reporte/{parent}/escenarios/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if true;
+      allow delete: if true;
+    }
+
+    match /{path=**}/escenarios/{document} {
+      allow read: if true;
+    }
+
+
+    match /Reporte/{parent}/iniciativas/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if true;
+      allow delete: if true;
+    }
+
+    match /{path=**}/iniciativas/{document} {
+      allow read: if true;
+    }
+
+
+    match /Users/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if true;
+      allow delete: if true;
+    }
+
+    match /Reporte/{parent}/procesos/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if true;
+      allow delete: if true;
+    }
+
+    match /{path=**}/procesos/{document} {
+      allow read: if true;
+    }
+
+
+    match /Reporte/{parent}/cifras/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if true;
+      allow delete: if true;
+    }
+
+    match /{path=**}/cifras/{document} {
+      allow read: if true;
+    }
+
+  }
+}

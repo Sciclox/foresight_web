@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "965349718230",
+    "project_id": "pe-pacasmayo-f5-gcp-dev",
+    "storage_bucket": "pe-pacasmayo-f5-gcp-dev.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965349718230:android:378ccfa065178c56f37177",
+        "android_client_info": {
+          "package_name": "com.mycompany.foresightweb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "965349718230-e8a7ib4mofgf7b129ipva271mqjsta9p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mycompany.foresightweb",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "965349718230-lnhpjip49q0nl8cogq6avp5h2eagckt1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPtaZsY2NZr6SAbPo_Kc0T2q_VbB6XNAg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "965349718230-lnhpjip49q0nl8cogq6avp5h2eagckt1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "965349718230-74rc3580rpd77ebat0db61inkcj465o4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.foresightweb"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

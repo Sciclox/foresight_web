@@ -1,0 +1,50 @@
+2025/12/08-18:43:46.648 8ec4 Reusing MANIFEST C:\Users\Lenovo\AppData\Local\Temp\flutter_tools.f1cc9246\flutter_tools_chrome_device.f0d70ecc\Default\IndexedDB\http_localhost_54131.indexeddb.leveldb/MANIFEST-000001
+2025/12/08-18:43:46.648 8ec4 Recovering log #4
+2025/12/08-18:43:46.648 8ec4 Reusing old log C:\Users\Lenovo\AppData\Local\Temp\flutter_tools.f1cc9246\flutter_tools_chrome_device.f0d70ecc\Default\IndexedDB\http_localhost_54131.indexeddb.leveldb/000004.log 
+2025/12/08-18:43:46.651 e50 Level-0 table #8: started
+2025/12/08-18:43:46.651 e50 Level-0 table #8: 2174 bytes OK
+2025/12/08-18:43:46.652 e50 Delete type=0 #4
+2025/12/08-18:43:46.652 8ec4 Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/08-18:45:45.981 8294 Level-0 table #10: started
+2025/12/08-18:45:45.981 8294 Level-0 table #10: 935 bytes OK
+2025/12/08-18:45:45.983 8294 Delete type=0 #7
+2025/12/08-18:45:45.983 34ec Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at '\x00\x05\x00\x00\x05' @ 177 : 1
+2025/12/08-18:45:45.983 34ec Compacting 1@0 + 1@1 files
+2025/12/08-18:45:45.984 34ec Generated table #11@0: 57 keys, 1363 bytes
+2025/12/08-18:45:45.984 34ec Compacted 1@0 + 1@1 files => 1363 bytes
+2025/12/08-18:45:45.985 34ec compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/12/08-18:45:45.985 34ec Delete type=2 #10
+2025/12/08-18:45:45.985 34ec Manual compaction at level-0 from '\x00\x05\x00\x00\x05' @ 177 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/08-18:51:16.279 34ec Level-0 table #13: started
+2025/12/08-18:51:16.280 34ec Level-0 table #13: 937 bytes OK
+2025/12/08-18:51:16.281 34ec Delete type=2 #8
+2025/12/08-18:51:16.281 34ec Delete type=0 #9
+2025/12/08-18:51:16.281 34ec Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at '\x00\x06\x00\x00\x05' @ 210 : 1
+2025/12/08-18:51:16.282 34ec Compacting 1@0 + 1@1 files
+2025/12/08-18:51:16.282 34ec Generated table #14@0: 65 keys, 1436 bytes
+2025/12/08-18:51:16.282 34ec Compacted 1@0 + 1@1 files => 1436 bytes
+2025/12/08-18:51:16.283 34ec compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/12/08-18:51:16.283 34ec Delete type=2 #13
+2025/12/08-18:51:16.283 34ec Manual compaction at level-0 from '\x00\x06\x00\x00\x05' @ 210 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/08-18:56:36.856 34ec Level-0 table #16: started
+2025/12/08-18:56:36.857 34ec Level-0 table #16: 936 bytes OK
+2025/12/08-18:56:36.858 34ec Delete type=2 #11
+2025/12/08-18:56:36.858 34ec Delete type=0 #12
+2025/12/08-18:56:36.859 8ec4 Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at '\x00\x07\x00\x00\x05' @ 243 : 1
+2025/12/08-18:56:36.859 8ec4 Compacting 1@0 + 1@1 files
+2025/12/08-18:56:36.860 8ec4 Generated table #17@0: 73 keys, 1515 bytes
+2025/12/08-18:56:36.860 8ec4 Compacted 1@0 + 1@1 files => 1515 bytes
+2025/12/08-18:56:36.860 8ec4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/12/08-18:56:36.860 8ec4 Delete type=2 #16
+2025/12/08-18:56:36.861 8ec4 Manual compaction at level-0 from '\x00\x07\x00\x00\x05' @ 243 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/08-19:04:00.468 34ec Level-0 table #19: started
+2025/12/08-19:04:00.469 34ec Level-0 table #19: 934 bytes OK
+2025/12/08-19:04:00.469 34ec Delete type=2 #14
+2025/12/08-19:04:00.470 34ec Delete type=0 #15
+2025/12/08-19:04:00.470 8ec4 Manual compaction at level-0 from '\x00\x08\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at '\x00\x08\x00\x00\x05' @ 276 : 1
+2025/12/08-19:04:00.470 8ec4 Compacting 1@0 + 1@1 files
+2025/12/08-19:04:00.470 8ec4 Generated table #20@0: 81 keys, 1578 bytes
+2025/12/08-19:04:00.471 8ec4 Compacted 1@0 + 1@1 files => 1578 bytes
+2025/12/08-19:04:00.471 8ec4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/12/08-19:04:00.471 8ec4 Delete type=2 #19
+2025/12/08-19:04:00.471 8ec4 Manual compaction at level-0 from '\x00\x08\x00\x00\x05' @ 276 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at (end)
